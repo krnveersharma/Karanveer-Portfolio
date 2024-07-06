@@ -1,5 +1,6 @@
 import Grid from '@/components/Grid';
 import Hero from '@/components/Hero'
+import RecentProjects from '@/components/RecentProjects';
 import { FloatingNav } from '@/components/ui/FloatingNav'
 import React from 'react'
 import { FaHome } from "react-icons/fa";
@@ -11,6 +12,7 @@ const Home = () => {
         <FloatingNav navItems={[{name:'Home',link:'/',icon:<FaHome/>}]}/>
         <Hero/>
         <Grid/>
+        <RecentProjects/>
       </div>
     </main>
   )
