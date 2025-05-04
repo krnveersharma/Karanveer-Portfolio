@@ -1,14 +1,15 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: 'Experience', link: "#experience" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: " I prioritize delivering innovative solutions and fostering open communication.",
+    title:
+      " I prioritize delivering innovative solutions and fostering open communication.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -72,72 +73,83 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "InformedInbox",
+    des: "Send reminders in a minute.",
+    img: "/reminders.png",
+    iconLists: [
+      "/golang.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/prisma.svg",
+      "/postgre.svg",
+    ],
+    link: "https://github.com/krnveersharma/reminders",
+  },
+  {
+    id: 1,
     title: "SmartSaver AI",
     des: "Control your expense by expense tracking and getting personalized AI recommendations.",
     img: "/SmartSaverAI.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/prisma.svg", "/postgre.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/postgre.svg"],
     link: "https://smart-saver-ai.vercel.app/",
   },
   {
     id: 2,
-    title: "Ecom",
+    title: "GoCart",
     des: "Buy and list your items and sell it to people",
     img: "/Ecom.svg",
-    iconLists: ["/express.svg", "/tail.svg", "/js.svg", "/mongo.svg"],
-    link: "https://github.com/krnveersharma/Ecom",
+    iconLists: ["/golang.svg", "/tail.svg", "/js.svg", "/postgre.svg"],
+    link: "https://github.com/krnveersharma/GoCart",
   },
   {
     id: 3,
     title: "Mern_Service",
     des: "WEbsite where you can connect with me forthe web development service",
     img: "/Mern_service.png",
-    iconLists: ["/re.svg", "/express.svg", "/tail.svg", "/js.svg", "/mongo.svg"],
+    iconLists: [
+      "/re.svg",
+      "/express.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/mongo.svg",
+    ],
     link: "https://github.com/krnveersharma/mern_service",
   },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "https://github.com/adrianhajdin/iphone",
-  // },
 ];
-
-
 
 export const workExperience = [
   {
     id: 1,
     title: "LambdaTest(Software Engineer Intern)",
-    desc: "Migrated complex client-side calculations from the frontend (React) to the backend (Golang), optimizing page load times by 25% and improving overall application performance. Developed and Implemented a Geolocation feature that dynamically assigns proxies based on cities, enhancing location - based services and improving targeting accuracy.Also efficiently handled the whole feature thus decreasing the cost by 5000$. Engineered and Deployed an Internal Asset Management Tool, handling the entire project lifecycle from frontend(Next.js) to backend (Django), including Docker configurations, git workflows and migration scripts.Collaborated with 3 + cross functional teams, including QA, designers and Devops teams, to gather requirements and deploying it successfully. skills: - Golang, React.js, Next.js, Redis, Git",
-    className:"md:col-span-2"
+
+    desc: "Optimized application performance by migrating heavy client-side logic from React to Golang, reducing page load times by 25%. Cut infrastructure costs by $5,000 through a geolocation-based proxy assignment system. Led end-to-end development of an internal asset management tool using Next.js, Django, and Docker, collaborating with cross-functional teams for successful deployment.",
+
+    className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-    }
-{
-  id: 2,
+  },
+  {
+    id: 2,
     title: "Moreshop Solutions(Software Engineer Intern)",
-      desc: `Worked on Multivendor website. Reduced API calls by a significant amount by handling the state efficiently.Using Recoil.js on the front end and sending relevant state changes to the DB thus decreasingoverall server cost.   Used Nextjs, ChakraUI and Typescript for the whole project.`,
-        className: "md:col-span-2",
-          thumbnail: "/exp1.svg",
-    },
-     
-  ];
+    desc: `Worked on Multivendor website. Reduced API calls by a significant amount by handling the state efficiently.Using Recoil.js on the front end and sending relevant state changes to the DB thus decreasingoverall server cost.   Used Nextjs, ChakraUI and Typescript for the whole project.`,
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: 'https://github.com/krnveersharma'
+    link: "https://github.com/krnveersharma",
   },
   {
     id: 2,
     img: "/link.svg",
-    link: 'https://www.linkedin.com/in/krnveersharma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+    link: "https://www.linkedin.com/in/krnveersharma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     id: 3,
     img: "/lc.svg",
-    link: 'https://leetcode.com/u/Karanvsharma/'
+    link: "https://leetcode.com/u/Karanvsharma/",
   },
 ];
